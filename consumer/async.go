@@ -16,7 +16,7 @@ import (
 
 	noaa_errors "github.com/scalingdata/go-noaa/errors"
 	"github.com/scalingdata/sonde-go/events"
-	"github.com/gogo/protobuf/proto"
+	"github.com/scalingdata/gogo-protobuf/proto"
 	"github.com/gorilla/websocket"
 )
 

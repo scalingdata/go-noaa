@@ -3,7 +3,7 @@ package noaa_test
 import (
 	"github.com/scalingdata/go-noaa"
 	"github.com/scalingdata/sonde-go/events"
-	"github.com/gogo/protobuf/proto"
+	"github.com/scalingdata/gogo-protobuf/proto"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
