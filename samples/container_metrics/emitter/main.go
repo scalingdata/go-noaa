@@ -4,8 +4,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/cloudfoundry/dropsonde"
-	"github.com/cloudfoundry/dropsonde/metrics"
+	"github.com/scalingdata/dropsonde"
+	"github.com/scalingdata/dropsonde/metrics"
 )
 
 var (

@@ -14,8 +14,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	noaa_errors "github.com/cloudfoundry/noaa/errors"
-	"github.com/cloudfoundry/sonde-go/events"
+	noaa_errors "github.com/scalingdata/go-noaa/errors"
+	"github.com/scalingdata/sonde-go/events"
 	"github.com/gogo/protobuf/proto"
 	"github.com/gorilla/websocket"
 )

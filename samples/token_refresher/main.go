@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cloudfoundry-incubator/uaago"
-	"github.com/cloudfoundry/noaa/consumer"
+	"github.com/scalingdata-incubator/uaago"
+	"github.com/scalingdata/go-noaa/consumer"
 )
 
 var (

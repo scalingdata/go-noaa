@@ -3,7 +3,7 @@ package consumer_test
 import (
 	"time"
 
-	"github.com/cloudfoundry/sonde-go/events"
+	"github.com/scalingdata/sonde-go/events"
 	"github.com/gogo/protobuf/proto"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

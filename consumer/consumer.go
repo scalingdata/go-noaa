@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudfoundry/noaa/consumer/internal"
+	"github.com/scalingdata/go-noaa/consumer/internal"
 
-	noaa_errors "github.com/cloudfoundry/noaa/errors"
-	"github.com/gorilla/websocket"
+	noaa_errors "github.com/scalingdata/go-noaa/errors"
+	"github.com/scalingdata/websocket"
 )
 
 var (

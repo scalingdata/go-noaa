@@ -6,9 +6,9 @@ import (
 	"net/http/httptest"
 	"time"
 
-	"github.com/cloudfoundry/loggregatorlib/loggertesthelper"
-	"github.com/cloudfoundry/loggregatorlib/server/handlers"
-	"github.com/cloudfoundry/noaa/consumer"
+	"github.com/scalingdata/loggregatorlib/loggertesthelper"
+	"github.com/scalingdata/loggregatorlib/server/handlers"
+	"github.com/scalingdata/go-noaa/consumer"
 
 	. "github.com/apoydence/eachers"
 	. "github.com/onsi/ginkgo"

@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudfoundry/noaa/consumer"
-	"github.com/cloudfoundry/noaa/consumer/internal"
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	"github.com/scalingdata/go-noaa/consumer"
+	"github.com/scalingdata/go-noaa/consumer/internal"
+	. "github.com/scalingdata/ginkgo"
+	. "github.com/scalingdata/gomega"
 )
 
 type nullHandler chan struct{}

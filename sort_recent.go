@@ -3,7 +3,7 @@ package noaa
 import (
 	"sort"
 
-	"github.com/cloudfoundry/sonde-go/events"
+	"github.com/scalingdata/sonde-go/events"
 )
 
 // SortRecent sorts a slice of LogMessages by timestamp. The sort is stable, so messages with the same timestamp are sorted

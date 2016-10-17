@@ -6,12 +6,12 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/cloudfoundry/loggregatorlib/loggertesthelper"
-	"github.com/cloudfoundry/loggregatorlib/server/handlers"
-	"github.com/cloudfoundry/noaa/consumer"
-	"github.com/cloudfoundry/noaa/errors"
-	"github.com/cloudfoundry/noaa/test_helpers"
-	"github.com/cloudfoundry/sonde-go/events"
+	"github.com/scalingdata/loggregatorlib/loggertesthelper"
+	"github.com/scalingdata/loggregatorlib/server/handlers"
+	"github.com/scalingdata/go-noaa/consumer"
+	"github.com/scalingdata/go-noaa/errors"
+	"github.com/scalingdata/go-noaa/test_helpers"
+	"github.com/scalingdata/sonde-go/events"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/cloudfoundry/noaa/consumer"
+	"github.com/scalingdata/go-noaa/consumer"
 )
 
 var (
