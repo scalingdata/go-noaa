@@ -13,7 +13,7 @@ import (
 	"github.com/scalingdata/go-noaa/consumer/internal"
 
 	noaa_errors "github.com/scalingdata/go-noaa/errors"
-	"github.com/scalingdata/websocket"
+	"github.com/scalingdata/go-websocket"
 )
 
 var (
